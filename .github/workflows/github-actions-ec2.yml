@@ -13,7 +13,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd ~/apps
-            git clone https://github.com/cbot918/gh-aws-ci
+            touch victory.txt
 
 # name: Push-to-EC2
 
